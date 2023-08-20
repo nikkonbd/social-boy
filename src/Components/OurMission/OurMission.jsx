@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
-import {   FaFacebookSquare,  FaPinterestSquare,  FaRedditSquare,  FaSoundcloud,  FaTwitterSquare } from 'react-icons/fa';
+import {
+  FaFacebookSquare,
+  FaPinterestSquare,
+  FaRedditSquare,
+  FaSoundcloud,
+  FaTwitterSquare,
+} from "react-icons/fa";
 
 const OurMission = () => {
   return (
@@ -27,21 +33,51 @@ const OurMission = () => {
 
       <div className="text-center my-16 ">
         <Link to="">
-          <button className="btn px-16 py-4 bg-[#197685] text-white  hover:border-2  hover:border-[#197685] hover:bg-white hover:text-[#197685]">Contact Us</button>
+          <button className="btn px-16 py-4 bg-[#41a1fd] text-white  hover:border-2  hover:border-[#197685] hover:bg-white hover:text-[#197685]">
+            Contact Us
+          </button>
         </Link>
       </div>
 
       <div className="flex my-14 justify-center items-center">
-        <Link><span className="text-6xl text-[#09b0ed] "><FaFacebookSquare /></span></Link>
-        <Link><span className="text-6xl text-[#09b0ed] "><FaTwitterSquare /></span></Link>
-        <Link><span className="text-6xl  text-[#09b0ed] border-3 border-[#09b0ed] "><FaPinterestSquare /></span></Link>
-       <Link> <span className="text-6xl text-[#09b0ed] "><FaSoundcloud /></span></Link>
-        <Link><span className="text-6xl text-[#09b0ed] "><FaRedditSquare /></span></Link>
-       
+        <Link>
+          <span className="text-6xl text-[#09b0ed] ">
+            <FaFacebookSquare />
+          </span>
+        </Link>
+        <Link>
+          <span className="text-6xl text-[#09b0ed] ">
+            <FaTwitterSquare />
+          </span>
+        </Link>
+        <Link>
+          <span className="text-6xl  text-[#09b0ed] border-3 border-[#09b0ed] ">
+            <FaPinterestSquare />
+          </span>
+        </Link>
+        <Link>
+          {" "}
+          <span className="text-6xl text-[#09b0ed] ">
+            <FaSoundcloud />
+          </span>
+        </Link>
+        <Link>
+          <span className="text-6xl text-[#09b0ed] ">
+            <FaRedditSquare />
+          </span>
+        </Link>
       </div>
-      <div className="text-center py-5">
-        <input className="px-12 py-3 rounded-md" type="email" name="email" id="" placeholder="Your Email" />
-        <button className="btn px-10 py-4 bg-[#197685] text-white  hover:border-2  hover:border-[#197685] hover:bg-white hover:text-[#197685]">Subscribe</button>
+      <div className="text-center pb-14 ">
+        <input
+          className="px-12 py-3 rounded-md"
+          type="email"
+          name="email"
+          id=""
+          placeholder="Your Email"
+        />
+        <button className="btn px-10 py-4 bg-[#197685] text-white  hover:border-2  hover:border-[#197685] hover:bg-white hover:text-[#197685]">
+          Subscribe
+        </button>
       </div>
     </div>
   );
